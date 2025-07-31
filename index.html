@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lombok Explorer Travel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">Lombok Explorer</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fun-fishing.html">Fun Fishing</a></li>
+          <li><a href="trekking.html">Mountain Trekking</a></li>
+          <li><a href="gili-trip.html">Gili Island Trip</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Toggle Button for Mobile -->
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+         <video class="bg-video" autoplay muted loop playsinline>
+      <source src="video/bg-video homepage.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+      <div class="overlay">
+        <h1>Lombok Explorer</h1>
+        <p>Unforgettable Adventure in Lombok & Gili Islands</p>
+        <a href="#packages" class="btn">View Packages</a>
+      </div>
+    </header>
+
+    <!-- Trip Packages -->
+    <section id="packages" class="packages">
+      <h2>Our Trip Packages</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/mancing.jpg" alt="Fun Fishing" />
+          <h3>Fun Fishing</h3>
+          <p>
+            Experience the thrill of fishing with local guides in Lombok's
+            pristine waters.
+          </p>
+          <span class="price">Start from $50 / person</span>
+          <a href="fun-fishing.html" class="btn">info lebih lengkap</a>
+        </div>
+        <div class="card">
+          <img src="images/trekking.jpg" alt="Mountain Trekking" />
+          <h3>Mountain Trekking</h3>
+          <p>
+            Climb Rinjani or explore hidden jungle trails with our professional
+            guides.
+          </p>
+          <span class="price">Start from $120 / person</span>
+        </div>
+        <div class="card">
+          <img src="images/gmabar 10.jpg" alt="Gili Island Trip" />
+          <h3>Gili Island Trip</h3>
+          <p>
+            Discover paradise in the famous Gili Islands with snorkeling & beach
+            hopping.
+          </p>
+          <span class="price">Start from $80 / person</span>
+          <a href="gili-trip.html" class="btn">info lebih lengkap</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery">
+      <h2>Our Trip Gallery</h2>
+      <div class="gallery-container">
+        <img src="images/gambar 1.jpg" alt="" />
+        <img src="images/gambar 2.jpg" alt="" />
+        <img src="images/gambar 3.jpg" alt="" />
+        <img src="images/gambar 4.jpg" alt="" />
+        <img src="images/gambar 5.jpg" alt="" />
+        <img src="images/gambar 6.jpg" alt="" />
+        <img src="images/gambar 1.jpg" alt="" />
+        <img src="images/gambar 2.jpg" alt="" />
+        <img src="images/gambar 3.jpg" alt="" />
+        <img src="images/gambar 4.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="about">
+      <h2>About Us</h2>
+      <p>
+        We are a local travel operator based in Lombok, offering authentic
+        experiences with professional guides. Our mission is to provide
+        unforgettable trips while supporting local communities.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <h2>Book Your Adventure</h2>
+      <p>Contact us via WhatsApp or email for booking & inquiries.</p>
+      <a href="https://wa.me/6285955330553" class="btn">WhatsApp Us</a>
+      <p>Email: <strong>info@lombokexplorer.com</strong></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Lombok Explorer Travel</p>
+    </footer>
+    <script>
+      const menuToggle = document.getElementById("menuToggle");
+      const navLinks = document.getElementById("navLinks");
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

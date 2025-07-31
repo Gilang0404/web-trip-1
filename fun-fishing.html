@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun Fishing Trip | Lombok Explorer Travel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">Lombok Explorer</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fun-fishing.html">Fun Fishing</a></li>
+          <li><a href="trekking.html">Mountain Trekking</a></li>
+          <li><a href="gili-trip.html">Gili Island Trip</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Toggle Button for Mobile -->
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header
+      class="hero small-hero"
+      style="background-image: url('images/ppp.jpg')"
+    >
+      <div class="overlay">
+        <h1>Fishing Trip For Fun</h1>
+        <p>
+          "The Lure of Remote Islands: A New Paradise for Anglers” <br />
+          <em>(Daya Tarik Kepulauan Terpencil: Surga Baru Bagi Pemancing)</em>
+        </p>
+        <a href="#packages" class="btn">View Packages</a>
+      </div>
+    </header>
+
+    <!-- Spot Information -->
+    <section class="spot-info">
+      <div class="container">
+        <h2>Fishing Spot Information</h2>
+        <p>
+          <strong>Start From Ampenan Riverside</strong>, we head out into the
+          beautiful blue sea. The depth of the spots ranges from
+          <strong>40 meters to 180 meters</strong>, located
+          <strong>3 to 6 kilometers from the coast</strong>. The main target
+          fish is <strong>ruby snapper</strong>. Each spot offers a unique
+          island view and fish display.
+        </p>
+        <p>
+          <em
+            >(Mulai dari tepi sungai menuju ke laut biru yang indah, kedalaman
+            spot mulai dari 40 meter sampai 180 meter, spot 3 sampai 6 kilometer
+            dari pesisir pantai, target ikan adalah ruby snapper, setiap spot
+            memiliki tampilan pulau dan tampilan ikan yang berbeda.)</em
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- Equipment -->
+    <section class="equipment">
+      <div class="container">
+        <h2>What We Provide</h2>
+        <p>We provide full fishing equipment:</p>
+        <ul>
+          <li>Reel Spinning</li>
+          <li>Reel Overhead (OH)</li>
+        </ul>
+        <p><em>(Kami menyediakan alat pancing Spinning dan OH)</em></p>
+      </div>
+    </section>
+
+    <!-- Packages -->
+    <section id="packages" class="packages">
+      <div class="container">
+        <h2>Our Fishing Packages</h2>
+        <div class="card-container">
+          <div class="card">
+            <h3>Package 1 - <span class="price">$300</span></h3>
+            <p>Bottom Fishing</p>
+            <ul>
+              <li>Min 1 Person, Max 3 Persons</li>
+              <li>Breakfast, Lunch, Snack, Fruit, & Drinking Water</li>
+              <li>Documentation (Action Cam)</li>
+              <li>Guide & Captain</li>
+              <li>6 Hours Fishing</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Package 2 - <span class="price">$280</span></h3>
+            <p>Bottom Fishing</p>
+            <ul>
+              <li>Min 1 Person, Max 3 Persons</li>
+              <li>Lunch, Snack, Fruit, & Drinking Water</li>
+              <li>Documentation (Action Cam)</li>
+              <li>Guide & Captain</li>
+              <li>5 Hours Fishing</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Package 3 - <span class="price">$270</span></h3>
+            <p>Bottom Fishing</p>
+            <ul>
+              <li>Min 1 Person, Max 3 Persons</li>
+              <li>Lunch, Fruit, & Drinking Water</li>
+              <li>Documentation (Action Cam)</li>
+              <li>Guide & Captain</li>
+              <li>5 Hours Fishing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="contact">
+      <h2>Book Your Fun Fishing Adventure</h2>
+      <p>Contact us via WhatsApp or email for booking & inquiries.</p>
+      <a href="https://wa.me/6285955330553" class="btn">WhatsApp Us</a>
+      <p>Email: <strong>info@lombokexplorer.com</strong></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Lombok Explorer Travel</p>
+    </footer>
+    <script>
+      const menuToggle = document.getElementById("menuToggle");
+      const navLinks = document.getElementById("navLinks");
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mountain Trekking | Lombok Explorer Travel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">Lombok Explorer</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fun-fishing.html">Fun Fishing</a></li>
+          <li><a href="trekking.html">Mountain Trekking</a></li>
+          <li><a href="gili-trip.html">Gili Island Trip</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+      class="hero small-hero"
+      style="background-image: url('images/trekking-banner.jpg')"
+    >
+      <div class="overlay">
+        <h1>Mountain Trekking</h1>
+        <p>"Conquer the Peaks of Lombok: A Journey Above the Clouds"</p>
+      </div>
+    </header>
+
+    <!-- Trekking Information -->
+    <section class="spot-info">
+      <div class="container">
+        <h2>Discover Rinjani & Lombok’s Scenic Trails</h2>
+        <p>
+          Join us on a trekking adventure through the most beautiful mountains
+          and hills of Lombok, including the iconic Mount Rinjani. Witness
+          sunrise above the clouds, explore crater lakes, and experience nature
+          with experienced local guides.
+        </p>
+        <p>
+          🥾 Suitable for all levels – from casual hiking to challenging
+          mountain climbs. 🌄 Camp under the stars with full porter support. 🗻
+          Local stories, nature education, and unforgettable views.
+        </p>
+      </div>
+    </section>
+
+    <!-- What’s Included -->
+    <section class="equipment">
+      <div class="container">
+        <h2>What We Provide</h2>
+        <ul>
+          <li>Local guide & porter</li>
+          <li>Trekking permit & entrance fee</li>
+          <li>Tents, sleeping bags, and mats</li>
+          <li>All meals during the trek</li>
+          <li>Drinking water & snacks</li>
+          <li>Transport to/from starting point</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Trekking Packages -->
+    <section class="packages">
+      <div class="container">
+        <h2>Trekking Packages</h2>
+        <div class="card-container">
+          <div class="card">
+            <h3>Rinjani 2D1N - <span class="price">$180 / person</span></h3>
+            <ul>
+              <li>Trekking to Senaru Crater Rim</li>
+              <li>Min 2 Persons</li>
+              <li>Includes guide, porter, meals, gear</li>
+              <li>Moderate difficulty</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Rinjani 3D2N - <span class="price">$240 / person</span></h3>
+            <ul>
+              <li>Summit + Lake + Hot Spring</li>
+              <li>Min 2 Persons</li>
+              <li>Full camping experience</li>
+              <li>Challenging route</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Easy Trekking - <span class="price">$50 / person</span></h3>
+            <ul>
+              <li>1 Day Trip – Local Hills</li>
+              <li>Suitable for beginners</li>
+              <li>Great for photography & short hikes</li>
+              <li>Includes guide & meals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h2>Book Your Trekking Adventure</h2>
+      <p>Contact us via WhatsApp or email for booking & inquiries.</p>
+      <a href="https://wa.me/6285955330553" class="btn">WhatsApp Us</a>
+      <p>Email: <strong>info@lombokexplorer.com</strong></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Lombok Explorer Travel</p>
+    </footer>
+
+    <script>
+      const menuToggle = document.getElementById("menuToggle");
+      const navLinks = document.getElementById("navLinks");
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
